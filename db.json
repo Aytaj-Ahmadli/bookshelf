@@ -1,0 +1,27 @@
+{
+   "books":[
+    {
+         "id":"1",
+         "name":"Suc ve ceza",
+         "author":"Dostoyevski",
+         "publisher":"Can Yayinlari",
+         "isbn":"123432123333",
+         "price":"29.99",
+         "categoryId":"1"
+    }
+   ],
+   "categories":[
+     {
+      "id":"1",
+      "name":"Roman"
+     },
+     {
+      "id":"2",
+      "name":"Siir"
+     },
+     {
+      "id":"3",
+      "name":"Deneme"
+     }
+   ]
+}
