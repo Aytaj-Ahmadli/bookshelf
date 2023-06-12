@@ -5,12 +5,12 @@ import ListBooks from "../components/ListBooks";
 
 
 const HomePage=()=>{
-  return(
-    <div>
-      <Header />
-      <ListBooks />
-      <h1>HomePage</h1>
-    </div>
-  )
+    return(
+        <div>
+            <Header />
+            <ListBooks />
+        </div>
+    )
+
 }
-export default HomePage;
+export default HomePage
