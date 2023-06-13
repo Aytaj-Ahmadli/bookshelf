@@ -63,12 +63,12 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/book-detail/:bookId" element={<BookDetail />} />
-        {/* <Route path="/add-book" element={<AddBook />} />
+        <Route path="/add-book" element={<AddBook />} />
         <Route path="/edit-book/:bookId" element={<EditBook />} />
         <Route path="/list-categories" element={<ListCategories />} />
         <Route path="/add-category" element={<AddCategory />} />
         <Route path="/edit-category/:categoryId" element={<EditCategory />} />
-        <Route path="*" element={<Error />} /> */}
+        <Route path="*" element={<Error />} />
       </Routes>
     </BrowserRouter>
   );
