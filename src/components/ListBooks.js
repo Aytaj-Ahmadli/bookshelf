@@ -11,7 +11,7 @@ import { Link } from "react-router-dom";
 
 import CustomModal from "./CustomModal";
 import { upperFirstLetters } from "../utils/functions";
-// import Text from "./Text";
+import Text from "./Text";
 
 const ListBooks = () => {
   const dispatch = useDispatch();
